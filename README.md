@@ -19,12 +19,7 @@ Provides a user-friendly interface for interacting with the system.
 Developed using Flask, a web framework in Python.
 
 ### Requirements
-Python 3.x
-Flask
-OpenCV
-TensorFlow
-Keras
-MTCNN
+Python 3.x, Flask, OpenCV ,TensorFlow , Keras , MTCNN
 
 ## Abstract 
 Systems for making music recommendations have been around for a while, but choosing from the large range of available music can be difficult for many people. Humans frequently use their facial expressions to convey their messages more effectively. Keeping this in mind, we propose a new method of music recommendation in which a person's sentiment is detected from their webcam-captured facial expression. When a user's facial expressions are picked up by the system, it extracts facial landmarks that can be used to categorize the user's emotional state. Once the emotion has been determined, the user will be presented with a list of songs that most accurately reflect their current mood. Following the user's selection of one song, other tracks in the same genre or style will be suggested. The system's overall goal is to effectively identify facial emotion and make song recommendations. 
@@ -35,4 +30,5 @@ Our project is trained on an MTCNN (Multi-Task Cascaded Convolutional Networks) 
 ## Dataset used 
 FER 2013 updated dataset
 
-
+# How the project looks like 
+Check out this document : https://docs.google.com/document/d/1eGntBbkTF0VK0K30lUf60JAIfkHlsumrCvDpaVP0lqs/edit?usp=sharing
